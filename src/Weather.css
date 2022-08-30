@@ -1,0 +1,130 @@
+p {
+    margin-bottom: 0px !important;
+    padding: 0;
+}
+img {
+    height: 70px;
+    width: 70px;
+}
+  /* a {
+    color: black;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+  a:hover {
+    font-weight: 900;
+    color: black;
+    transition: all 200ms ease-in-out;
+    opacity: 1;
+  } */
+.container {
+    max-width: 1100px !important;
+    margin: 0px;
+}
+.form-control{
+    font-size: 16px;
+}
+.icon {
+    position: relative;
+    top: -25px;
+}
+  
+.typeSky {
+    text-transform: capitalize;
+}
+.units {
+    color: black;
+    position: relative;
+    top: -45px;
+}
+.cityNow {
+    text-align: right;
+}
+.Weather {
+    background-color: rgb(191, 212, 218);
+    box-shadow: 0px 0px 10px rgb(194, 194, 194);
+    border: rgb(191, 212, 218);
+    border-radius: 4px;
+    padding: 40px;
+}
+.weatherNow {
+    margin-top: 20px;
+    /* margin: 20px 0 30px 0; исправить потом*/ 
+}
+.temperatureNow {
+    font-size: 80px;
+}
+.yourCity {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+.dayTemperature,
+.units,
+.dayIndicators,
+.day,
+.time,
+.typeSky {
+    font-size: 16px;
+}
+.dayIndicators {
+    padding-top: 30px;
+}
+.forecast {
+    text-align: center;
+    font-size: 25px;
+}
+.card {
+    background-color: rgb(154, 172, 177);
+    border: rgb(154, 172, 177);
+}
+  
+@media (max-width: 800px) {
+    .container {
+      max-width: 500px !important;
+    }
+    .Weather{
+      padding: 10px !important;
+    }
+    .form-control{
+      font-size: 10px !important;
+    }
+    .weatherNow {
+      /* margin: 10px 0 20px 0; */
+    }
+    .temperatureNow{
+      font-size: 30px;
+    }
+    .yourCity {
+      font-size: 30px;
+    }
+    .dayTemperature,
+    .units,
+    .dayIndicators,
+    .day,
+    .time,
+    .typeSky,
+    .tempNextDay {
+      font-size: 10px;
+      /* font-weight:bolder; */
+    }
+    .units {
+      color: black;
+      position: relative;
+      top: -15px;
+    }
+    .icon {
+      position: relative;
+      top: -5px;
+    }
+    .dayIndicators {
+      padding-top: 7px;
+    }
+    img{
+      height: 40px;
+      width: 40px;
+    }
+    .forecast,
+    .linkHub {
+      font-size: 12px;
+    }
+}
