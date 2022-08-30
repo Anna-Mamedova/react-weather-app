@@ -1,8 +1,15 @@
-p {
+.Weather {
+    background-color: rgb(191, 212, 218);
+    box-shadow: 0px 0px 10px rgb(194, 194, 194);
+    border: rgb(191, 212, 218);
+    border-radius: 4px;
+    padding: 40px;
+}
+.Weather p {
     margin-bottom: 0px !important;
     padding: 0;
 }
-img {
+.Weather img {
     height: 70px;
     width: 70px;
 }
@@ -17,10 +24,7 @@ img {
     transition: all 200ms ease-in-out;
     opacity: 1;
   } */
-.container {
-    max-width: 1100px !important;
-    margin: 0px;
-}
+
 .form-control{
     font-size: 16px;
 }
@@ -28,7 +32,6 @@ img {
     position: relative;
     top: -25px;
 }
-  
 .typeSky {
     text-transform: capitalize;
 }
@@ -40,23 +43,18 @@ img {
 .cityNow {
     text-align: right;
 }
-.Weather {
-    background-color: rgb(191, 212, 218);
-    box-shadow: 0px 0px 10px rgb(194, 194, 194);
-    border: rgb(191, 212, 218);
-    border-radius: 4px;
-    padding: 40px;
-}
 .weatherNow {
-    margin-top: 20px;
+    margin-top: 30px;
     /* margin: 20px 0 30px 0; исправить потом*/ 
 }
-.temperatureNow {
+.temperature {
     font-size: 80px;
+    line-height: 1;
 }
-.yourCity {
+.city {
     font-size: 70px;
     margin-bottom: 0px;
+    line-height: 1;
 }
 .dayTemperature,
 .units,
@@ -67,21 +65,18 @@ img {
     font-size: 16px;
 }
 .dayIndicators {
-    padding-top: 30px;
+    padding-top: 10px;
 }
-.forecast {
+/* .forecast {
     text-align: center;
     font-size: 25px;
 }
 .card {
     background-color: rgb(154, 172, 177);
     border: rgb(154, 172, 177);
-}
+} */
   
 @media (max-width: 800px) {
-    .container {
-      max-width: 500px !important;
-    }
     .Weather{
       padding: 10px !important;
     }
@@ -91,10 +86,10 @@ img {
     .weatherNow {
       /* margin: 10px 0 20px 0; */
     }
-    .temperatureNow{
+    .temperature{
       font-size: 30px;
     }
-    .yourCity {
+    .city {
       font-size: 30px;
     }
     .dayTemperature,
@@ -123,8 +118,7 @@ img {
       height: 40px;
       width: 40px;
     }
-    .forecast,
-    .linkHub {
+    /* .forecast{
       font-size: 12px;
-    }
+    } */
 }
