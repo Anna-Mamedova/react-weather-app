@@ -1,0 +1,15 @@
+.WeatherInfo img {
+    position: relative;
+    top: -20px;
+    height: 90px;
+    width: 90px;
+    line-height: 1;
+}
+
+@media (max-width: 800px) {
+    .WeatherInfo img {
+        height: 40px;
+        width: 40px;
+        top: -7px;
+      }
+}
