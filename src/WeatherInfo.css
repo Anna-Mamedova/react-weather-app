@@ -1,3 +1,7 @@
+.WeatherInfo {
+    margin-bottom: 20px;
+}
+
 .WeatherInfo img {
     position: relative;
     top: -20px;
@@ -7,9 +11,12 @@
 }
 
 @media (max-width: 800px) {
+    .WeatherInfo {
+        margin-bottom:15px;
+    }
     .WeatherInfo img {
         height: 40px;
         width: 40px;
         top: -7px;
-      }
+    }
 }

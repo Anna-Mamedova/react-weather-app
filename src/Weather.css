@@ -27,13 +27,12 @@
 .units {
   color: black;
   position: relative;
-  top: -38px;
+  bottom: -28px;
+  right: -170px;
+  
 }
 .cityNow {
   text-align: right;
-}
-.WeatherInfo {
-  margin: 20px 0;
 }
 .city,
 .temperature {
@@ -56,9 +55,6 @@
     .Weather .form-control{
       font-size: 10px !important;
     }
-    .WeatherInfo {
-      margin: 20px 0 10px 0;
-    }
     .temperature,
     .city{
       font-size: 30px;
@@ -74,6 +70,7 @@
     .units {
       color: black;
       position: relative;
-      top: -15px;
+      right: -75px;
+      bottom: -18px;
     }
 }
